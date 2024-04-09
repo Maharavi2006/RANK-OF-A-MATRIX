@@ -15,11 +15,8 @@ To write a python program to find the rank of a matrix
 #RegisterNumber:212223230117
 
 import numpy as np
-# Define the matrix
-matrix = np.array([[5, -3, -10], [2, 2, -3], [-3, -1, 5]])
-# Calculate the rank of the matrix
+matrix = np.array([[5, -3, -10], [2, 2, -3], [-3, -1, 5]
 rank = np.linalg.matrix_rank(matrix)
-# Print the rank
 print(rank)
 ## Output:
 ![image](https://github.com/Maharavi2006/RANK-OF-A-MATRIX/assets/154535981/0232c437-ba13-40d2-a865-83ef8214d995)
